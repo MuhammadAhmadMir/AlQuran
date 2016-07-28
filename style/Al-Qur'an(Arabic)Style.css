@@ -1,0 +1,82 @@
+﻿body {
+    background-color: #F0F0F0;
+}
+
+#wrapper {
+    align-self: center;
+    /*width: 810px;*/
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#header {
+    /*margin-top: -10px;
+    margin-left: -0.5%;*/
+    height: 105px;
+    /*width: 800px;*/
+    width: 100%;
+    /*padding: 3px;*/
+}
+
+#logo {
+    height: 100px;
+    /*width: 795px;*/
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+    border: 1px solid; 
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+     border: 1px solid; 
+}
+
+strong {
+    text-align: center;
+}
+
+.srno {
+    text-align: left;
+    border: 1px solid; 
+}
+
+.name {
+    text-align: left;
+    border: 1px solid; 
+}
+
+.link {
+    text-align: center;
+    border: 1px solid; 
+}
+
+#footer {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.infolink {
+    color: white;
+    text-decoration: none;
+}
+
+.infolink:visited {
+    color: purple;
+}
+
+.infolink:hover {
+    color: aqua;
+}
+
+.player {
+    display: inline-block;
+    width: 50%;
+    display: none;
+}
